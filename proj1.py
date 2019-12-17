@@ -23,7 +23,6 @@ elif a==2:
 	os.system("touch "+x)
 	print("your file has been created in the present working directory")
 elif a==3:
-	os.system("touch ftp://192.168.10.254 >> /etc/yum/repos.d/testrepo1")
 	x=input("please enter the name of the software you want to install ")
 	os.system("sudo yum install "+x)
 elif a==4:
